@@ -6,7 +6,7 @@ const SingleProduct = ({ product }) => {
    return (
       <div
          key={product?.id}
-         className={`col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item ${product?.category}`}
+         className={`col-sm-6 col-md-4 col-lg-4 p-b-35 isotope-item ${product?.category}`}
          onClick={() => navigate("/product-details", { state: { "productDetails": product } })}
       >
          <div className="block2">

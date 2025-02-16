@@ -17,19 +17,34 @@ const AboutPage = () => {
             <div className="container">
                <div className="row p-b-148">
                   <div className="col-md-7 col-lg-8">
-                     <div className="p-t-7 p-r-85 p-r-15-lg p-r-0-md">
-                        <h3 className="mtext-111 cl2 p-b-16">
-                           Our Story
-                        </h3>
+                  <div className="p-t-7 p-r-85 p-r-15-lg p-r-0-md">
+  <h3 className="mtext-111 cl2 p-b-16">Our Story</h3>
 
-                        <p className="stext-113 cl6 p-b-26">
-                           Welcome to <strong>Interlock Bricks</strong>, your trusted partner in building dreams. We specialize in providing high-quality interlock bricks that are not only durable but also aesthetically pleasing. Our journey began with a simple mission: to revolutionize the way people build their homes by offering a sustainable, cost-effective, and visually appealing alternative to traditional construction materials.
-                        </p>
+  <p className="stext-113 cl6 p-b-26">
+    At <strong>Greenland</strong>, we take pride in transforming outdoor spaces with expert paving and landscaping solutions. With years of experience in the industry, our team is dedicated to delivering high-quality craftsmanship, innovative designs, and durable materials to enhance the beauty and functionality of your property.
+  </p>
 
-                        <p className="stext-113 cl6 p-b-26">
-                           Over the years, we have grown into a leading provider of interlock bricks, serving homeowners, architects, and builders alike. Our bricks are designed to withstand the test of time, offering superior strength and durability. Whether you're building a new home, renovating an existing one, or working on a commercial project, our interlock bricks are the perfect choice for creating beautiful, long-lasting structures.
-                        </p>
-                     </div>
+  <p className="stext-113 cl6 p-b-26">
+    Whether it’s a new driveway, patio, walkway, or a complete landscape overhaul, we work closely with our clients to bring their vision to life. Our commitment to excellence, attention to detail, and customer satisfaction set us apart. We believe that every project—big or small—deserves the highest level of professionalism and care.
+  </p>
+
+  <p className="stext-113 cl6 p-b-26">
+    From residential gardens to commercial spaces, we provide customized solutions that suit your style, needs, and budget. Trust <strong>Greenland</strong> to create stunning outdoor spaces that stand the test of time.
+  </p>
+
+  <h4 className="mtext-111 cl2 p-b-16">Why Choose Us?</h4>
+  <ul className="stext-113 cl6 p-b-26">
+    <li>✅ Experienced & Skilled Team</li>
+    <li>✅ High-Quality Materials & Workmanship</li>
+    <li>✅ Personalized Designs & Solutions</li>
+    <li>✅ Reliable & Timely Project Completion</li>
+  </ul>
+
+  <p className="stext-113 cl6 p-b-26">
+    Let’s build something beautiful together! <strong>Contact us today</strong> for a free consultation.
+  </p>
+</div>
+
                   </div>
 
                   <div className="col-11 col-md-5 col-lg-4 m-lr-auto">

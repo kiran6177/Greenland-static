@@ -16,15 +16,27 @@ const Header = () => {
             <div className="wrap-menu-desktop">
                <nav className="limiter-menu-desktop p-l-45">
                   {/* Logo Desktop */}
-                  <h2 onClick={() => navigate("/")}
-                     style={{
-                        marginRight: "40px",
-                        color: "black",
-                        fontWeight: "600",
-                        fontSize: "1.8rem",
-                     }}>
-                     GreenLand Paving
-                  </h2>
+                  <h2 
+  onClick={() => navigate("/")}
+  style={{
+    display: "flex",
+    alignItems: "center",
+    marginRight: "40px",
+    color: "black",
+    fontWeight: "600",
+    fontSize: "1.8rem",
+  }}
+>
+  {/* Logo Image */}
+  <img 
+    src="/Img/logo2.png" 
+    alt="Logo" 
+    style={{ width: "40px", height: "40px", marginRight: "10px" }} 
+  />
+  
+  {/* Styled Text */}
+  <span style={{ color: "green" }}>Green</span>Land Paving
+</h2>
 
 
                   {/* Menu Desktop */}
